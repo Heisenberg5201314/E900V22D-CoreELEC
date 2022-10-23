@@ -71,6 +71,7 @@ sudo mount -o loop,offset=${offset} ${source_img_name}.img ${mount_point}
 echo "Creating keymaps directory for kodi"
 sudo mkdir -p -m 0755 ${kodi_userdata}/keymaps
 echo "Copying kodi config files"
+sudo cp ${common_files}/advancedsettings.xml ${kodi_userdata}/advancedsettings.xml
 sudo chown root:root ${kodi_userdata}/keymaps/backspace.xml
 sudo chmod 0644 ${kodi_userdata}/keymaps/backspace.xml
 
