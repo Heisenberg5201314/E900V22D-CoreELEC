@@ -18,7 +18,7 @@ sudo apt-get install -y make gcc git texinfo gzip squashfs-tools
 ```
 cd ~
 
-git clone https://github.com/alahei/CM311-1a-CoreELEC.git
+git clone https://github.com/Heisenberg5201314/CM311-1a-CoreELEC.git
 cd CM311-1a-CoreELEC
 sh build.sh
 ```
