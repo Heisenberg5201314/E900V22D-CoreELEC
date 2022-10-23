@@ -1,4 +1,4 @@
+# CMCC_Voice_Remote
 evdev:input:b0005v0416p0300*
  KEYBOARD_KEY_c0041=enter
- KEYBOARD_KEY_70065=menu
- KEYBOARD_KEY_70055=delete
+ KEYBOARD_KEY_c00f0=o
