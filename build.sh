@@ -1,5 +1,5 @@
 #! /bin/sh
-version="19.5-Matrix_rc2"
+version="19.5-Matrix_rc3"
 source_img_name="CoreELEC-Amlogic-ng.arm-${version}-Generic"
 source_img_file="${source_img_name}.img.gz"
 source_img_url="https://ghproxy.com/https://github.com/CoreELEC/CoreELEC/releases/download/${version}/${source_img_name}.img.gz"
@@ -74,6 +74,19 @@ echo "Copying kodi config files"
 sudo cp ${common_files}/backspace.xml ${kodi_userdata}/keymaps/backspace.xml
 sudo chown root:root ${kodi_userdata}/keymaps/backspace.xml
 sudo chmod 0644 ${kodi_userdata}/keymaps/backspace.xml
+
+
+echo "Creating guisettings.xml for kodi"
+echo "Copying kodi config files"
+sudo cp ${common_files}/guisettings.xml ${kodi_userdata}/guisettings.xml
+sudo chown root:root ${kodi_userdata}/guisettings.xml
+sudo chmod 0644 ${kodi_userdata}/guisettings.xml
+
+echo "Creating mediasources.xml for kodi"
+echo "Copying kodi config files"
+sudo cp ${common_files}/mediasources.xml ${kodi_userdata}/mediasources.xml
+sudo chown root:root ${kodi_userdata}/mediasources.xml
+sudo chmod 0644 ${kodi_userdata}/mediasources.xml
 
 echo "Unmounting CoreELEC data partition"
 sudo umount -d ${mount_point}
