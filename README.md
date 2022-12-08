@@ -5,9 +5,9 @@
 
 `common-files/{advancedsettings.xml,backspace.xml,e900v22c.rc_keymap,fs-resize,rc_maps.cfg}` 来自于 [KryptonLee/e900v22c-CoreELEC](https://github.com/KryptonLee/e900v22c-CoreELEC.git)
 
-`common-files/bt-remote.hwdb` 为蓝牙遥控器按键文件
+`common-files/CMCC_Voice_Remote.hwdb` 为蓝牙遥控器按键文件
 
-`common-files/ccm311-1a.dtb` 是盒子的dtb文件，由于CM311-1a没有wifi,dtb中删除了关于wifi部分
+`common-files/e900V22d.dtb` 是盒子的dtb文件，由于CM311-1a没有wifi,dtb中删除了关于wifi部分
 
 用法 (Ubuntu 20.04 LTS)
 ```
@@ -18,8 +18,8 @@ sudo apt-get install -y make gcc git texinfo gzip squashfs-tools
 ```
 cd ~
 
-git clone https://github.com/Heisenberg5201314/CM311-1a-CoreELEC.git
-cd CM311-1a-CoreELEC
+git clone https://github.com/Heisenberg5201314/E900V22D-CoreELEC.git
+cd E900V22D-CoreELEC
 sh build.sh
 ```
 有可能需要输入sudo密码
