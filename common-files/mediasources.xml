@@ -2,7 +2,7 @@
     <network>
         <location id="0">dav://admin:admin@127.0.0.1:8081/</location>
         <location id="1">dav://admin:admin@127.0.0.1:8082/</location>
-        <location id="2">smb://1246344579%40qq.com:hellolove@192.168.31.11/</location>
-        <location id="3">dav://admin:admin@192.168.31.2:8082/</location>
+        <location id="2">smb://1246344579%40qq.com:hellolove@192.168.123.11/</location>
+        <location id="3">dav://admin:admin@192.168.123.2:8082/</location>
     </network>
 </mediasources>
