@@ -45,6 +45,13 @@ sudo chown root:root ${config_path}/hwdb.d/CMCC_Voice_Remote.hwdb
 sudo chmod 0644 ${config_path}/hwdb.d/CMCC_Voice_Remote.hwdb
 
 
+
+echo "Copying remotewakeup files"
+sudo cp ${common_files}/ugoosx3.remotewakeup ${config_path}/ugoosx3.remotewakeup
+sudo chown root:root ${config_path}/ugoosx3.remotewakeup
+sudo chmod 0644 ${config_path}/ugoosx3.remotewakeup
+
+
 echo "Compressing SYSTEM image"
 sudo mksquashfs ${system_root} SYSTEM -comp lzo -Xalgorithm lzo1x_999 -Xcompression-level 9 -b 524288 -no-xattrs
 echo "Replacing SYSTEM image"
