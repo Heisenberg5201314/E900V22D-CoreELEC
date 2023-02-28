@@ -1,0 +1,3 @@
+remotewakeup='0x2fd0dd22'
+decode_type='0x0'
+remotewakeupmask='0xffffffff'
