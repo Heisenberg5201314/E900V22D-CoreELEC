@@ -20,7 +20,7 @@
     <setting id="locale.charset" default="true">DEFAULT</setting>
     <setting id="locale.keyboardlayouts" default="true">English QWERTY</setting>
     <setting id="locale.activekeyboardlayout" default="true">English QWERTY</setting>
-    <setting id="locale.country">Beijing (12h)</setting>
+    <setting id="locale.country">Beijing (24h)</setting>
     <setting id="locale.timezonecountry">China</setting>
     <setting id="locale.timezone">Asia/Shanghai</setting>
     <setting id="locale.shortdateformat" default="true">regional</setting>
@@ -290,13 +290,13 @@
     <setting id="smb.minprotocol" default="true">0</setting>
     <setting id="smb.maxprotocol" default="true">0</setting>
     <setting id="smb.legacysecurity" default="true">false</setting>
-    <setting id="services.wsdiscovery" default="true">true</setting>
+    <setting id="services.wsdiscovery">false</setting>
     <setting id="nfs.version" default="true">3</setting>
     <setting id="weather.currentlocation" default="true">1</setting>
     <setting id="weather.addon" default="true" />
     <setting id="videoscreen.monitor" default="true">Default</setting>
     <setting id="videoscreen.screen" default="true">0</setting>
-    <setting id="videoscreen.resolution">22</setting>
+    <setting id="videoscreen.resolution">23</setting>
     <setting id="videoscreen.screenmode" default="true">DESKTOP</setting>
     <setting id="videoscreen.fakefullscreen" default="true">true</setting>
     <setting id="videoscreen.blankdisplays" default="true">false</setting>
@@ -506,7 +506,7 @@
             <level>0</level>
             <showhigherlevels>true</showhigherlevels>
         </eventlog>
-        <systemtotaluptime>5652</systemtotaluptime>
+        <systemtotaluptime>7471</systemtotaluptime>
     </general>
     <defaultvideosettings>
         <interlacemethod>1</interlacemethod>
@@ -557,6 +557,6 @@
     </myvideos>
     <audio>
         <mute>false</mute>
-        <fvolumelevel>0.750000</fvolumelevel>
+        <fvolumelevel>1.000000</fvolumelevel>
     </audio>
 </settings>
