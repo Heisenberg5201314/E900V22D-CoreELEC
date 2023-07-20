@@ -16,11 +16,11 @@
     <setting id="lookandfeel.stereostrength" default="true">5</setting>
     <setting id="lookandfeel.enablerssfeeds" default="true">false</setting>
     <setting id="lookandfeel.rssedit" default="true" />
-    <setting id="locale.language" default="true">resource.language.en_gb</setting>
+    <setting id="locale.language">resource.language.zh_cn</setting>
     <setting id="locale.charset" default="true">DEFAULT</setting>
     <setting id="locale.keyboardlayouts" default="true">English QWERTY</setting>
     <setting id="locale.activekeyboardlayout" default="true">English QWERTY</setting>
-    <setting id="locale.country">Australia (12h)</setting>
+    <setting id="locale.country">Beijing (24h)</setting>
     <setting id="locale.timezonecountry">China</setting>
     <setting id="locale.timezone">Asia/Shanghai</setting>
     <setting id="locale.shortdateformat" default="true">regional</setting>
@@ -29,7 +29,7 @@
     <setting id="locale.use24hourclock" default="true">regional</setting>
     <setting id="locale.temperatureunit" default="true">regional</setting>
     <setting id="locale.speedunit" default="true">regional</setting>
-    <setting id="screensaver.mode" default="true">screensaver.xbmc.builtin.dim</setting>
+    <setting id="screensaver.mode" default="true">default</setting>
     <setting id="screensaver.time" default="true">3</setting>
     <setting id="screensaver.usemusicvisinstead" default="true">true</setting>
     <setting id="screensaver.usedimonpause" default="true">true</setting>
@@ -506,7 +506,7 @@
             <level>0</level>
             <showhigherlevels>true</showhigherlevels>
         </eventlog>
-        <systemtotaluptime>7471</systemtotaluptime>
+        <systemtotaluptime>7486</systemtotaluptime>
     </general>
     <defaultvideosettings>
         <interlacemethod>1</interlacemethod>
